@@ -1,0 +1,10 @@
+Package: factoextraGDA
+Type: Package
+Title: Visualize and Extraxt GDA specific data.
+Version: 0.1.0
+Author: Fabian Mundt
+Maintainer: Fabian Mundt <f.mundt@inventionate.de>
+Description: Extends FactoMineR and factoextra GDA specific analysis tools.
+License: MIT
+Encoding: UTF-8
+LazyData: true
