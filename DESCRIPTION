@@ -1,10 +1,28 @@
-Package: factoextraGDA
+Package: MCAvis
 Type: Package
-Title: Visualize and Extraxt GDA specific data.
+Title: Visualise the results of Multiple Correspondence Analysis based on ggplot2.
 Version: 0.1.0
+Date: 2017-08-30
 Author: Fabian Mundt
 Maintainer: Fabian Mundt <f.mundt@inventionate.de>
-Description: Extends FactoMineR and factoextra GDA specific analysis tools.
+Description: Create and analyse publication ready MCA plots, especially Social Science requirements.
 License: MIT
 Encoding: UTF-8
+Depends:
+    R (>= 3.4),
+    tidyverse,
+    forcats,
+    showtext,
+    sysfonts,
+    Hmisc,
+    ggrepel,
+    ggthemes,
+    RColorBrewer,
+    GDAtools,
+    FactoMineR,
+    missMDA,
+    factoextra,
+    rlang
+BugReports: https://github.com/inventionate/MCAvis/issues
+URL: https://github.com/inventionate/MCAvis
 LazyData: true
